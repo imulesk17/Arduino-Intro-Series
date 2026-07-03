@@ -1,6 +1,11 @@
 void setup() {
   // put your setup code here, to run once:
 
+  // The flow of current:
+  // Pin 12 -> resistor -> LED 1 -> GND
+  // Pin 8  -> resistor -> LED 2 -> GND
+  // Pin 12 and pin 8 are separate outputs but the code turns them on and off together, so both current paths start and stop together.
+
   // We connected our LED to Arduino pin 12
   // We need to tell the Arduino that we are going to use pin 12 as an output
   pinMode(12,OUTPUT);

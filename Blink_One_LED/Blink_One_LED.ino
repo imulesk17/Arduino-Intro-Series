@@ -8,6 +8,10 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
+  // The flow of current: 
+  // Current flows from pin 12, through the resistor, through the LED, and back to ground. 
+  // The resistor limits the current so the LED does not burn out.
+
   // To turn our LED on, we use the 'digitalWrite' command
   digitalWrite(12,HIGH); // 'HIGH' means to turn it on
 
